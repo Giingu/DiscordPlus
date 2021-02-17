@@ -4,6 +4,8 @@
 // @iconURL   https://i.ibb.co/7znt13j/30162036.png
 // @namespace https://greasyfork.org/en/users/735799
 // @license      MIT
+// @updateURL    https://github.com/FoxsCode/DiscordPlus/raw/main/Discord%2B%2B.user.js
+// @downloadURL  https://github.com/FoxsCode/DiscordPlus/raw/main/Discord%2B%2B.user.js
 // @name:es Discord++ | Lleva tu experiencia de discord web al siguiente nivel
 // @name:ja Discord++ |「DISCORD」Webエクスペリエンスを次のレベルに引き上げる
 // @name:fr Discord++ | Faites passer votre expérience Web Discord au niveau supérieur
