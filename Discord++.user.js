@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name Discord++ | Take your discord web experience to the next level
-// @version 1.2.3.19
+// @version 1.2.5.19 | STABLE
 // @iconURL   https://i.ibb.co/7znt13j/30162036.png
 // @namespace https://greasyfork.org/en/users/735799
 // @license      MIT
