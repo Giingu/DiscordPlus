@@ -28,16 +28,17 @@ How to install
 2. Click [this link](https://github.com/FoxsCode/DiscordPlus/raw/main/Discord%2B%2B.user.js) that will open a window asking you to confirm the installation of the script
 3. Open [Discord on the web](https://discord.com/app) (It should now work and show you a purple bar at the top saying that an update was installed)
 
+===
 How to use Alt Switcher
 ---
 1. Once Discord has started, you can click on your profile picture on the bottom left corner.
 2. Click on the new button that has appeared, called "Change Account".
 
-<div align="center"><img src="https://raw.githubusercontent.com/cazeip/MultipleAccounts/master/images/bottomLeft.png" /></div>
+<div align="center"><img src="https://i.imgur.com/azahC3h.gif" /></div>
 
 3. A menu with your account has now appeared. Since you have not set this up yet, you have to log into your other accounts by clicking on the bottom text *"Not seeing your account? Click here to add one"*.
 
-<div align="center"><img src="https://camo.githubusercontent.com/adce6916b5cc7c0ba2d477410e82d929b54c9fa893b22d34629c29586cf23cd2/68747470733a2f2f692e696d6775722e636f6d2f6c594d766d70752e706e67" /></div>
+<div align="center"><img src="https://i.imgur.com/lYMvmpu.png" /></div>
 
 4. Enter your usual login credentials.
 
@@ -45,17 +46,18 @@ How to use Alt Switcher
 
 6. Click on the green "Log In" button to log into one of the accounts.
 
+===
 How to use Steath Mode
 ---
 On the top left of the discord screen you will see a little switch, click it to enable and click again to disable.
 
+===
 How to use Channel List Hidder
 ---
 On the top left of the discord screen you will see a little arrow, click it to hide and click again to show.
 
 
 <img style="border-radius: 15px;" src="https://i.ibb.co/j43DNtC/h8-S5-LGTTZS.gif" alt="" width="164" height="104" /><img style="border-radius: 15px;" src="https://i.ibb.co/BsmL9XG/a3-Xp-RLf-Smz.gif" alt="" width="80" height="104" /><img style="border-radius: 15px;" src="https://i.ibb.co/9ZBkwTj/a-IOc-Do-ZD8y.gif" alt="" width="92" height="104" />
-<img src="https://i.imgur.com/azahC3h.gif" /> <img src="https://i.imgur.com/lYMvmpu.png" />
 <img src="https://i.imgur.com/kGNsDef.png" /> 
 <p><img src="https://i.ibb.co/Qbd8L1F/Y0-Vy-W2ii-Wl.gif" alt="" width="359" height="476" /><img src="https://i.ibb.co/MZMVPGS/WBCo-Tpiiz-X.gif" /><img src="https://i.ibb.co/fMKdQwN/K6-C8t7x-PLe.gif" alt="" width="277" height="476" /></p>
 <img src="https://i.ibb.co/YPcTB37/Mr5-X6-Kb-ZWZ.gif" />
