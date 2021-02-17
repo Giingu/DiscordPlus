@@ -37,7 +37,7 @@ How to use Alt Switcher
 
 3. A menu with your account has now appeared. Since you have not set this up yet, you have to log into your other accounts by clicking on the bottom text *"Not seeing your account? Click here to add one"*.
 
-<div align="center"><img src="https://raw.githubusercontent.com/cazeip/MultipleAccounts/master/images/onlyOneAccount.png" /></div>
+<div align="center"><img src="https://camo.githubusercontent.com/adce6916b5cc7c0ba2d477410e82d929b54c9fa893b22d34629c29586cf23cd2/68747470733a2f2f692e696d6775722e636f6d2f6c594d766d70752e706e67" /></div>
 
 4. Enter your usual login credentials.
 
