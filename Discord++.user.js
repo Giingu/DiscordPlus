@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name Discord++ | Take your discord web experience to the next level
-// @version 1.2.9
+// @version 1.2.9.5
 // @iconURL   https://i.ibb.co/7znt13j/30162036.png
 // @namespace https://greasyfork.org/en/users/735799
 // @license      MIT
@@ -438,9 +438,9 @@ function createBox() {
         sheet.insertRule('input:focus + .lurkSlider.round {box-shadow: 0px 0px 0px 3px white;}',sheet.cssRules.length);
         sheet.insertRule('input:checked + .lurkSlider.round {box-shadow: 0px 0px 0px 3px white;}',sheet.cssRules.length);
         sheet.insertRule('input:checked + .lurkSlider:before {background-color: var(--Color005); -webkit-transform: translateX(10px);-ms-transform: translateX(10px);transform: translateX(10px);}',sheet.cssRules.length);
-        sheet.insertRule('.lurkSlider.round {box-shadow: 0px 0px 0px 3px var(--Color005); border-radius: 3px; border-bottom-right-radius: 0px; border-bottom-left-radius: 0px;}',sheet.cssRules.length);
+        sheet.insertRule('.lurkSlider.round {box-shadow: 0px 0px 0px 3px var(--Color005); border-radius: 100px;}',sheet.cssRules.length);
         sheet.insertRule('.lurkSlider.round:before {border-radius: 100%;}',sheet.cssRules.length);
-        sheet.insertRule('.lurkDiv {padding-top: 7px; position: fixed; z-index: 999; padding-left: 40px;}',sheet.cssRules.length);
+        sheet.insertRule('.lurkDiv {z-index: 999; position: absolute; left: 342px; top: 500px;}',sheet.cssRules.length);
         frag.appendChild(outDiv);
         outDiv.appendChild(outLabel);
         outLabel.appendChild(checkBox);
@@ -728,23 +728,25 @@ window.addEventListener("click", recheck, false);
         let btnDiv = document.createElement("div");
         btnDiv.setAttribute("class", "toggleChannelsBtn");
         btnDiv.setAttribute("id", "toggleChannelsBtn");
-        btnDiv.style.width = "70px";
         btnDiv.style.color = "#FFFFFF";
         btnDiv.style.position = "absolute";
-        btnDiv.style.top = "0";
-        btnDiv.style.zIndex = "3";
+        btnDiv.style.top = "21px";
+        btnDiv.style.left = "68px";
+        btnDiv.style.zIndex = "2";
+// Button Itself
         let btn = document.createElement("p");
         btn.setAttribute("id", "dtcb-cheverons");
         btn.innerText = "‹"; // symbol for <
-        btn.style.margin = "0";
+        btn.style.margin = "0px";
         btn.style.position = "fixed";
         btn.style.cursor = "pointer";
         btn.style.backgroundColor = "#36393f";
-        btn.style.color = "unset";
-        // btn.style.display = "inline-flex";
-        btn.style.padding = "0px 6px 4px";
-        btn.style.justifyContent = "center";
+        btn.style.borderTopRightRadius = "10px";
+        btn.style.height = "inherit";
         btn.style.borderBottomRightRadius = "10px";
+        btn.style.color = "unset";
+        btn.style.padding = "5px 5px 10px";
+        btn.style.justifyContent = "center";
         btn.style.fontSize = "15px";
         btnDiv.appendChild(btn);
         return btnDiv;
@@ -4534,7 +4536,7 @@ margin-right: -2px;
 }
 
 #app-mount .sidebar-2K8pFh {
-    background: transparent;
+    background: transparent !important;
     border-radius: 23px;
     margin-top: 12px;
     margin-right: 12px;
