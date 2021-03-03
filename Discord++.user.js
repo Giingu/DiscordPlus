@@ -4533,7 +4533,8 @@ margin-right: -2px;
 
 .scroller-1JbKMe {
     background: var(--Color004);
-    border-radius: 20px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
 }
 
 #app-mount .sidebar-2K8pFh {
