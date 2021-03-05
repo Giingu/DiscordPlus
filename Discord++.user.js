@@ -345,7 +345,6 @@ function GM_getResourceURL(aName) {
     function changeAccount(newToken){
         window.dispatchEvent(new Event('beforeunload'));
         let token = JSON.parse(localStorage.token);
-        apiCall("/auth/logout", {"provider":null,"voip_provider":null}, "POST");
         window.location.href = "http://discord.com/login";
         localStorage.token = "\""+newToken+"\"";
         if (newToken == "--[LogIn]--") {
