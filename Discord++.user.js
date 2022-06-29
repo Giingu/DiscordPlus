@@ -18,7 +18,7 @@
 // @name:ro Discord++ | Luați experiența dvs. web discord la nivelul următor
 // @name:ru Discord++ | Поднимите свой опыт работы с Discord в Интернете на новый уровень
 // @name:it Discord++ | Porta la tua esperienza web con Discord al livello successivo
-// @author @FoxCode
+// @author @Giingu
 // @description Discord++ adds tons of features to your web browser discord! Custom backgrounds, Account-Switcher, Log deleted messages, custom colors, smooth and new animations, better optimization, no rate limits, and much much more! It also comes with it's own theme (it can be disabled).
 // @description:es ¡Discord ++ agrega toneladas de características a discord web! Fondos personalizados, registro de mensajes eliminados, colores personalizados, animaciones nuevas y suaves, mejor optimización, sin límites de velocidad y mucho más. También viene con su propio tema (se puede desactivar).
 // @description:ja Discord ++はあなたのウェブブラウザの不和にたくさんの機能を追加します！ カスタム背景、ログ削除されたメッセージ、カスタムカラー、スムーズで新しいアニメーション、より良い最適化、レート制限なし、その他多数！ また、独自のテーマが付属しています（無効にすることができます）。
