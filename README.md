@@ -1,18 +1,24 @@
 <p><sub><img src="https://i.ibb.co/yRT4BjG/Discord-Plus.png" width="717" height="403" /></sub></p>
 <p><strong>DISCORD++</strong> improves your web browser's Discord experience to a whole new level!</p>
 <ul>
-<li>Switch accounts!</li>
+<li>Nitro Emojis Bypass</li>
+<li>Screenshare Audio</li>
 <li>Custom backgrounds</li>
 <li>Log deleted messages</li>
 <li>Silent Typing</li>
-<li>Custom colors</li>
-<li>Improved timestamps</li>
+<li>Discord Experiments</li>
+<li>Secret Hidden Settings</li>
+<li>Improved Context Menus</li>
+<li>Enhanced timestamps</li>
 <li>Smooth and new animations</li>
 <li>Better optimization</li>
-<li>Lurk Mode</li>
+<li>Video Stream Cycler</li>
 <li>No install app reminders</li>
 <li>No rate limits</li>
 <li>And much much more!</li>
+    
+    
+    
 </ul>
 <p><em>And thats not all! It even comes with the most advanced, polished and unique looking custom theme!</em></p>
 
@@ -21,10 +27,10 @@ How to install
 ---
 1. Install an extension for user scripting
     
-    - For Chrome : ([Violentmonkey](https://chrome.google.com/webstore/detail/violent-monkey/jinjaccalgkegednnccohejagnlnfdag) or [Tampermonkey](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo))
-    - For Firefox: [Greasemonkey](https://addons.mozilla.org/firefox/addon/greasemonkey/), [Tampermonkey](https://addons.mozilla.org/firefox/addon/tampermonkey/), or [Violentmonkey](https://addons.mozilla.org/firefox/addon/violentmonkey/)
+    - For Chrome : ([Tampermonkey](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo))
+    - For Firefox: [Greasemonkey](https://addons.mozilla.org/firefox/addon/greasemonkey/), [Tampermonkey](https://addons.mozilla.org/firefox/addon/tampermonkey/)
     - For Microsoft Edge: [Tampermonkey](https://www.microsoft.com/store/p/tampermonkey/9nblggh5162s)
-    - For Opera: [Tampermonkey](https://addons.opera.com/extensions/details/tampermonkey-beta/) or [Violentmonkey](https://addons.opera.com/extensions/details/violent-monkey/)
+    - For Opera: [Tampermonkey](https://addons.opera.com/extensions/details/tampermonkey-beta/)
 2. Click [this link](https://github.com/FoxsCode/DiscordPlus/raw/main/Discord%2B%2B.user.js) that will open a window asking you to confirm the installation of the script
 3. Open [Discord on the web](https://discord.com/app) (It should now work and show you a purple bar at the top saying that an update was installed)
 
