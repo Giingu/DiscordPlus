@@ -1,7 +1,7 @@
 <p><sub><img src="https://i.ibb.co/yRT4BjG/Discord-Plus.png" width="717" height="403" /></sub></p>
 <p><strong>DISCORD++</strong> improves your web browser's Discord experience to a whole new level!</p>
 <ul>
-<li>Nitro Emojis Bypass</li>
+<li>Nitro features for free</li>
 <li>Screenshare Audio</li>
 <li>Custom backgrounds</li>
 <li>Log deleted messages</li>
