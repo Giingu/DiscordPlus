@@ -1,12 +1,13 @@
 // ==UserScript==
-// @name Energized Discord++ | Take your discord web experience to the next level
-// @version 1.2.8
-// @iconURL   https://i.ibb.co/7znt13j/30162036.png
-// @namespace https://greasyfork.org/en/users/735799
-// @license      MIT
-// @updateURL    https://github.com/FoxsCode/DiscordPlus/raw/main/Discord%2B%2B.user.js
-// @downloadURL  https://github.com/FoxsCode/DiscordPlus/raw/main/Discord%2B%2B.user.js
-// @name:es Energized Discord++ | Lleva tu experiencia de discord web al siguiente nivel
+// @author @Discord++
+// @name Discord++ | Take your discord web experience to the next level
+// @description Discord++ adds tons of features to your web browser discord! Custom backgrounds, Account-Switcher, Log deleted messages, custom colors, smooth and new animations, better optimization, no rate limits, and much much more! It also comes with it's own theme (it can be disabled).
+// @icon         https://www.google.com/s2/favicons?domain=discord.com
+// @version      1.0.1.1
+// @updateURL    https://github.com/Giingu/DiscordPlus
+// @downloadURL  https://github.com/Giingu/DiscordPlus
+// @namespace https://greasyfork.org/en/users/735822-discord
+// @name:es Discord++ | Lleva tu experiencia de discord web al siguiente nivel
 // @name:ja Discord++ |「DISCORD」Webエクスペリエンスを次のレベルに引き上げる
 // @name:fr Discord++ | Faites passer votre expérience Web Discord au niveau supérieur
 // @name:ko Discord++ | Take your Discord web experience to the next level
@@ -18,8 +19,6 @@
 // @name:ro Discord++ | Luați experiența dvs. web discord la nivelul următor
 // @name:ru Discord++ | Поднимите свой опыт работы с Discord в Интернете на новый уровень
 // @name:it Discord++ | Porta la tua esperienza web con Discord al livello successivo
-// @author @Giingu
-// @description Discord++ adds tons of features to your web browser discord! Custom backgrounds, Account-Switcher, Log deleted messages, custom colors, smooth and new animations, better optimization, no rate limits, and much much more! It also comes with it's own theme (it can be disabled).
 // @description:es ¡Discord ++ agrega toneladas de características a discord web! Fondos personalizados, registro de mensajes eliminados, colores personalizados, animaciones nuevas y suaves, mejor optimización, sin límites de velocidad y mucho más. También viene con su propio tema (se puede desactivar).
 // @description:ja Discord ++はあなたのウェブブラウザの不和にたくさんの機能を追加します！ カスタム背景、ログ削除されたメッセージ、カスタムカラー、スムーズで新しいアニメーション、より良い最適化、レート制限なし、その他多数！ また、独自のテーマが付属しています（無効にすることができます）。
 // @description:fr Discord ++ ajoute des tonnes de fonctionnalités à la discorde de votre navigateur Web! Arrière-plans personnalisés, journal des messages supprimés, couleurs personnalisées, animations fluides et nouvelles, meilleure optimisation, aucune limite de débit et bien plus encore! Il est également livré avec son propre thème (il peut être désactivé).
@@ -51,7 +50,7 @@
 // @grant        GM_info
 // @grant        GM_download
 // @grant        GM_setClipboard
-// @grant GM_addStyle
+// @grant        GM_addStyle
 // @match        https://twitter.com/*
 // @match        https://tweetdeck.twitter.com/*
 // @match        https://discordapp.com/activ*
@@ -69,7 +68,7 @@
 // @require      https://code.jquery.com/jquery-3.1.1.min.js
 // @require      https://code.jquery.com/jquery-3.5.1.min.js
 // @require      https://code.jquery.com/jquery-3.6.0.min.js
-// @antifeature  tracking
+// @license      MIT
 // ==/UserScript==
 /* jshint esversion: 6 */
 /* require-jsdoc  */
@@ -5233,7 +5232,7 @@ navigator.mediaDevices.getDisplayMedia = getDisplayMedia;
 /*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
 /*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
 // Which string to replace filename with.
-const REPLACE_WITH = "InfiniteDiscord";
+const REPLACE_WITH = "DiscordPlus+";
 // Set to "whitelist" to only affect files with selected extensions, "blacklist" to affect all files but those ones.
 const MODE = "blocklist";
 // E.g. ["mp4", "gif"] will make the script ignore these files in blacklist mode.
