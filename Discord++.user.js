@@ -1,12 +1,12 @@
 // ==UserScript==
 // @author @Discord++
 // @name Discord++ | Take your discord web experience to the next level
-// @description Discord++ adds tons of features to your web browser discord! Custom backgrounds, Account-Switcher, Log deleted messages, custom colors, smooth and new animations, better optimization, no rate limits, and much much more! It also comes with it's own theme (it can be disabled).
-// @icon         https://www.google.com/s2/favicons?domain=discord.com
-// @version      1.0.1.3
+// @description Discord++ adds tons of features to your web browser discord! Nitro features, custom backgrounds, deleted message logs, silent typing, smooth and new animations, better optimization, no rate limits, and much much more! It also comes with it's own theme.
+// @icon        https://i.imgur.com/ZpNxm4a.png
+// @version      1.0.1.4
 // @updateURL    https://github.com/Giingu/DiscordPlus/raw/main/Discord%2B%2B.user.js
 // @downloadURL  https://github.com/Giingu/DiscordPlus/raw/main/Discord%2B%2B.user.js
-// @namespace https://greasyfork.org/en/users/735822-discord
+// @namespace    https://greasyfork.org/en/users/735822-discord
 // @name:es Discord++ | Lleva tu experiencia de discord web al siguiente nivel
 // @name:ja Discord++ |「DISCORD」Webエクスペリエンスを次のレベルに引き上げる
 // @name:fr Discord++ | Faites passer votre expérience Web Discord au niveau supérieur
