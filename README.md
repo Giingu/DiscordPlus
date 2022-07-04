@@ -22,6 +22,8 @@
 </ul>
 <p><em>And thats not all! It even comes with the most advanced, polished and unique looking custom theme!</em></p>
 
+[![HitCount](http://hits.dwyl.com/Giingu/DiscordPlus.svg)](http://hits.dwyl.com/Giingu/DiscordPlus)
+
 ===
 How to install
 ---
