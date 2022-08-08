@@ -1,0 +1,116 @@
+.Loading {
+    line-height: 1;
+    user-select: none;
+    text-rendering: optimizeLegibility;
+    -webkit-box-direction: normal;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-weight: inherit;
+    font-style: inherit;
+    font-family: inherit;
+    font-size: 100%;
+    vertical-align: baseline;
+    outline: 0;
+    transform: translateZ(0);
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    z-index: 3000;
+    overflow: hidden;
+    forced-color-adjust: none;
+    opacity: 1;
+}
+/* original gradient spinner by Mahdi Farra on CodePen */
+
+/*    \/ \/ \/    FOR DEMO ONLY    \/ \/ \/    */
+
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap'); /* import "red hat display" from google fonts" */
+*{
+  font-family: 'Red Hat Display', sans-serif; /* set "red hat display" as default font */
+  text-align: center;
+}
+.dplusloading{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+}
+
+/*    /\ /\ /\    FOR DEMO ONLY    /\ /\ /\    */
+
+:root{
+  --spinner-size: 150px; /* change the size of the spinner */
+  --loading-screen-background: #1C1C1C; /* change the background color of the loading screen */
+  --font-family: 'Red Hat Display', sans-serif; /* change the font used for the bottom text of the loading screen */
+  --text-color: white; /* change the color used for the bottom text of the loading screen */
+}
+.spinner-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.loading-screen{
+  background-color: var(--loading-screen-background, #1C1C1C);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: fixed;
+  top:0;
+  right:0;
+  left:0;
+  bottom:0;
+  z-index: 500;
+  cursor: none;
+}
+.spinner {
+  width: var(--spinner-size, 64px) !important;
+  height: var(--spinner-size, 64px) !important;
+  background: linear-gradient(180deg, #0f6fff 0%, rgba(0, 0, 0, 0.1) 25%);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  animation: spin 2s cubic-bezier(.52,.1,.27,.87) infinite;
+  position: relative;
+}
+.spinner::after {
+  content: "";
+  width: calc(100% - 4px);
+  height: calc(100% - 4px);
+  border-radius: 50%;
+  background: var(--loading-screen-background, #1C1C1C);
+  z-index: 01;
+}
+.spinner-container img{
+  height: calc(var(--spinner-size, 64px) / 100 * 75);
+  width: calc(var(--spinner-size, 64px) / 100 * 75);
+  border-radius: 50%;
+  object-fit: cover;
+  position: absolute;
+  z-index: 02;
+	object-position: center;
+}
+.loading-screen p{
+  font-family: var(--font-family, sans-serif);
+  color: var(--text-color, white);
+  opacity: .5;
+  font-weight: 300;
+}
+@keyframes spin {
+  100% {
+    transform: rotate(360deg);
+  }
+}

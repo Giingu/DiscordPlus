@@ -1,0 +1,128 @@
+/* Font */
+
+    --font: 'Oxygen';
+
+/* Accent */
+    --Color001: #04D869;
+    --Color010: #43B581;
+
+/* Background */
+    --Color002: #33393D;
+    --Color003: #262A2D;
+    --Color004: #202427;
+    --Color005: #1A1D20;
+
+/* Text */
+    --Color006: #FFFFFF;
+    --Color007: #DCDDDE;
+    --Color008: #b9bbbe;
+    --Color009: #4F5459;
+
+/* Mention */
+
+    --Mention: 4,216,105;
+
+/* Shadow */
+
+    --shadow001: 0px 8px 12px 4px #00000040;
+
+/* Radius */
+
+    --Radius001: 24px; /* The value should not exceed 24px. */
+    --Radius002: 90px; /* The value should not exceed 90px. */
+
+/* Picture-in-oicture Opacity */
+
+    --picture-in-picture: 60%;
+
+/* Avatar Size */
+
+    --avatar-size: 60px;
+
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||| Blurple Recolor ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+
+    --accentcolor: 4,216,105;
+    --linkcolor: 4,216,105;
+
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||| Audioviz |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+
+--audioviz: var(--Color001);
+
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||| SettingsIcons ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+
+    --settings-icon-color: var(--Color007);
+    --settings-subscriptions: var(--Color007);
+    --settings-hypesquad: var(--Color007);
+    --settings-logout: #f04747;
+    --settings-alt-focused: var(--Color007);
+    --settings-guild-premium: var(--Color007);
+    --settings-guild-delete: #f04747;
+
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||| Windows 10 Titlebar ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+
+    --titlebar-height: 30px;
+    --titlebar-drag-margin: 4px;
+    --titlebar-button-width: 48px;
+    --titlebar-font-size: 12px;
+    --titlebar-icon-font-size: 12px;
+    --titlebar-background-color: var(--Color005);
+    --titlebar-text-color: var(--Color007);
+    --titlebar-button-hover: var(--Color003);
+    --titlebar-button-active: var(--Color003);
+    --titlebar-close-button-hover: var(--Color001);
+    --titlebar-close-button-active: var(--Color001);
+
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||| Radius |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+
+    --Radius001: 24px; /* The value should not exceed 24px. */
+    --Radius002: 90px; /* The value should not exceed 90px. */
+
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||| Variables ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+/*||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||*/
+
+    --background-primary: var(--Color004);
+    --background-secondary: var(--Color005);
+    --background-secondary-alt: var(--Color002);
+    --background-tertiary: var(--Color005);
+    --background-accent: var(--Color001);
+    --background-floating: var(--Color005);
+    --background-modifier-hover: var(--Color004);
+    --background-modifier-active: var(--Color004);
+    --background-modifier-selected: var(--Color001);
+    --background-modifier-accent: var(--Color002);
+    --channeltextarea-background: var(--Color001);
+    --deprecated-card-bg: var(--Color004);
+    --deprecated-card-editable-bg: var(--Color004);
+    --deprecated-text-input-bg: var(--Color005);
+    --deprecated-text-input-border: var(--Color005);
+    --deprecated-text-input-border-disabled: var(--Color005);
+    --activity-card-background: var(--Color004);
+    --channels-default: var(--Color008);
+    --interactive-normal: var(--Color008);
+    --interactive-hover: var(--Color006);
+    --interactive-active: var(--Color006);
+    --interactive-muted: var(--Color009);
+    --header-primary: var(--Color006);
+    --toast-background: var(--Color006);
+    --toast-header: var(--Color005);
+    --toast-contents: var(--Color006);
+    --toast-box-shadow: rgba(0, 0, 0, .2);
+    --toast-border: var(--Color005);
+    --header-secondary: var(--Color008);
+    --channel-list: var(--Color003);
+    --offline-color: var(--Color004);
+    --text-normal: var(--Color007);
+    --text-muted: var(--Color009);
+    --spotify-color: var(--Color001);
+}
